@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
         $this->cleanDatabase();
 
         $this->call(UserTableSeeder::class);
+        $this->call(PlaceTableSeeder::class);
     }
 
     /**
